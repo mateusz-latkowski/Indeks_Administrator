@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewReigstrationInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="@string/textViewRegistrationInfo" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center" >
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editTextName"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                tools:ignore="LabelFor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center" >
+
+            <EditText
+                android:id="@+id/editTextSurname"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:hint="@string/editTextSurname"
+                android:textAlignment="center"
+                tools:ignore="LabelFor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center" >
+
+            <EditText
+                android:id="@+id/editTextAcademicTitle"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:ems="10"
+                android:hint="@string/editTextAcademicTitle"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                tools:ignore="LabelFor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center" >
+
+            <EditText
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:hint="@string/editTextPhoneNumber"
+                android:textAlignment="center"
+                tools:ignore="LabelFor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center" >
+
+            <EditText
+                android:id="@+id/editTextRoom"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:hint="@string/editTextRoom"
+                android:textAlignment="center"
+                tools:ignore="LabelFor" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/buttonSaveInfo"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_buttons"
+                android:text="@string/buttonSave" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

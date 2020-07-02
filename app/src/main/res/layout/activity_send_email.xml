@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendEmail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewEmailAccount"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewSendEmail"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextEnterEmail"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_inputs"
+            android:gravity="center"
+            android:hint="@string/editTextMail"
+            android:layout_gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextEnterPassword"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_inputs"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:hint="@string/editTextPassword"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/textViewSendEmail2"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextRecipient"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:hint="@string/recipient"
+            android:background="@drawable/rounded_inputs"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_inputs"
+            android:ems="10"
+            android:hint="@string/subject"
+            android:layout_marginTop="5dp"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:background="@drawable/rounded_inputs"
+            android:gravity="left"
+            android:hint="@string/message"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="10"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/buttonSendEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/buttonSend" />
+    </LinearLayout>
+</ScrollView>

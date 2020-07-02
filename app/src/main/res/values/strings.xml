@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">INDEKS ELEKTRONICZNY</string>
+
+    <string name="editTextMail">E-mail</string>
+    <string name="editTextPassword">Hasło</string>
+
+    <string name="imageDescription">Image</string>
+
+    // DANE
+    <string name="name">Mateusz</string>
+    <string name="surname">Latkowski</string>
+    <string name="room">A/1/01</string>
+    <string name="academictitle">Doktor</string>
+    <string name="phoneNumber">123456789</string>
+    <string name="email">admin@admin.com</string>
+    <string name="email2">lalta96@gmail.com</string>
+    <string name="pass">lalta1</string>
+
+    // MainActivity - Login
+    <string name="textViewLogin">Nie masz konta? Zarejestruj się!</string>
+    <string name="textViewRecoveryPassword">Zapomniałeś hasła? Kliknij tutaj!</string>
+    <string name="buttonLogin">ZALOGUJ</string>
+
+    // Registration
+    <string name="buttonRegistration">Zarejestruj</string>
+    <string name="textViewRegistration">Jesteś zarejestrowany? Zaloguj się!</string>
+
+    // RegistrationInfo
+    <string name="textViewRegistrationInfo">Podaj swoje dane:</string>
+    <string name="editTextName">Imię/Imiona</string>
+    <string name="editTextSurname">Nazwisko</string>
+    <string name="editTextAcademicTitle">Tytuł naukowy</string>
+    <string name="editTextRoom">Pokój</string>
+    <string name="editTextPhoneNumber">Numer telefonu</string>
+    <string name="buttonSave">Zapisz</string>
+
+    // ResetPassword
+    <string name="resetText">Na podany przez Ciebie adres e-mail zostanie wysłany link z aktywacją nowego hasła!</string>
+    <string name="buttonReset">Wyślij</string>
+
+    // AdminHome
+    <string name="textViewAdminHome">Wybierz, co chcesz zrobić!</string>
+    <string name="buttonUpdateSubject">Przypnij przedmioty</string>
+    <string name="buttonUpdateData">Aktualizuj informacje</string>
+    <string name="buttonUpdateGrades">Oceny</string>
+    <string name="buttonSendEmail">Wyślij Email</string>
+    <string name="buttonLogOut">Wyloguj</string>
+
+    <string name="lab">Laboratorium</string>
+    <string name="wyk">Wykład</string>
+    <string name="okm">OKM</string>
+
+    // SendEmail
+    <string name="textViewSendEmail">Podaj e-mail i hasło do konta poczty</string>
+    <string name="textViewSendEmail2">Podaj odbiorcę, temat i treść wiadomości</string>
+    <string name="recipient">Odbiorca</string>
+    <string name="subject">Temat</string>
+    <string name="message">\tTreść</string>
+    <string name="buttonSend">Wyślij</string>
+
+    <string name="search">Wyszukaj przedmiot..</string>
+
+    // enter_grades
+    <string-array name="zaliczenie">
+        <item>NIE</item>
+        <item>TAK</item>
+    </string-array>
+
+    <string-array name="grades">
+        <item>Brak</item>
+        <item>2.0</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

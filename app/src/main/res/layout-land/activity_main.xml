@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_gravity="center"
+            android:contentDescription="@string/imageDescription" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/editTextMailLogin"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:hint="@string/editTextMail"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center" >
+
+            <EditText
+                android:id="@+id/editTextPasswordLogin"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_inputs"
+                android:hint="@string/editTextPassword"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/buttonSignIn"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_buttons"
+                android:text="@string/buttonLogin" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" >
+
+            <TextView
+                android:id="@+id/textViewSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewLogin"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textViewRecoveryPass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/textViewRecoveryPassword"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</ScrollView>

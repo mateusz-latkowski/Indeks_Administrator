@@ -1,0 +1,61 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewAdminHome"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:text="@string/textViewAdminHome"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/buttonGrades"
+            android:layout_width="250dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonUpdateGrades"
+            android:background="@drawable/rounded_buttons"/>
+
+        <Button
+            android:id="@+id/buttonInformation"
+            android:layout_width="250dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonUpdateData"
+            android:background="@drawable/rounded_buttons"/>
+
+        <Button
+            android:id="@+id/buttonSendMail"
+            android:layout_width="250dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonSendEmail"
+            android:background="@drawable/rounded_buttons"/>
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonLogOut"
+            android:background="@drawable/rounded_buttons"/>
+
+    </LinearLayout>
+</ScrollView>

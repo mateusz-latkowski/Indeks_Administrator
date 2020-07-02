@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    tools:context=".AdminUpdateSubjectList">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewLektorat1"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchLektorat1"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewMatematyka1"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Switch
+                    android:id="@+id/switchMatematyka1"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewInformatyka"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchInformatyka"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewWF"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchWF"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewLektorat2"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchLektorat2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewOchronaWlasnosci"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchOchronaWlasnosci"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewPUSK"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchPUSK"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewWDPA"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchWDPA"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewWDP"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchWDP"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewAP"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchAP"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/textViewAK"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchAK"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+
+                    <TextView
+                    android:id="@+id/textViewFIZYKA"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Switch
+                    android:id="@+id/switchFIZYKA"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+
+            </RelativeLayout>
+        </LinearLayout>
+</ScrollView>

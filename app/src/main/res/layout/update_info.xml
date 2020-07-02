@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="@string/editTextRoom" />
+
+        <EditText
+            android:id="@+id/editTextRoomUpdate"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_inputs"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/editTextPhoneNumber" />
+
+        <EditText
+            android:id="@+id/editTextPhoneNumberUpdate"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_inputs"
+            android:layout_gravity="center"
+            android:importantForAutofill="no" />
+
+    </LinearLayout>
+</ScrollView>
